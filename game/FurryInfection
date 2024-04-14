@@ -13,7 +13,6 @@ end
 spawn(function()
 end)    
 
-task.wait(5)
 
 if workspace:FindFirstChild("FagFolder") then
 
@@ -76,10 +75,10 @@ Toggles:AddToggle({
         spawn(function()
             if kaura then
                 _G.killaura = true
-                notify("Furry Infection Warsaw","KillAura On - Destroying kiddie")
+                notify("Furry Infection Destroyer Warsaw","KillAura On - Destroying kiddie")
             else
                 _G.killaura = false
-                notify("Furry Infection Warsaw","KillAura Off - Destroying kiddie")
+                notify("Furry Infection Destroyer Warsaw","KillAura Off - Destroying kiddie")
             end
 while _G.killaura do wait()
 pcall(function()
@@ -138,7 +137,7 @@ else
     fireproximityprompt(_G.MetalBatProximity, 2, false)
     until game.Players.LocalPlayer.Character:FindFirstChild("Bat") or game.Players.LocalPlayer.Backpack:FindFirstChild("Bat") or game.Players.LocalPlayer.Backpack:FindFirstChild("Metal  Bat") or game.Players.LocalPlayer.Character:FindFirstChild("Metal  Bat")
     game:GetService("Players").localPlayer.Character:MoveTo(oldpos)
-    notify("Furry Infection Fucker","Grabbed Bat Destroying kiddie")
+    notify("Furry Infection Destroyer Warsaw","Grabbed Bat Destroying kiddie")
 end
 end) 
 end
