@@ -336,7 +336,7 @@ local DetectionScripts = {
 		Description = "Gain an unfair advantage by Killing players using the Furry Infection's flaws",
 		Games = {7791106063},
 		Premium = false,
-		Loadstring = "https://raw.githubusercontent.com/DomainX-Revived/DomainX/main/game/FurryInfection",
+		Loadstring = "https://raw.githubusercontent.com/AnonyNo-Script/DomainX-Revived/main/game/FurryInfection",
 	},
 	andestsim = {
 		Name = "Anime Destroyer Simulator",
