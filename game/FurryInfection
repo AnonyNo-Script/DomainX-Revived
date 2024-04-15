@@ -35,17 +35,11 @@ local W1 = OrionLib:MakeWindow({Name = "Furry Infection Destroyer Warsaw Edition
 
 OrionLib:MakeNotification({
     Name = "Furry Infection Destroyer Warsaw",
-    Content = "New Name Btw, Fixing Some Shit By AnonyNo (anonylandfall)",
+    Content = "New Name Btw, Fixing Some Shit By AnonyNo (anonylandfall), also Admins And Reporters will know you thinking you gained unfair advantages so be sure you have alts",
     Image = "rbxassetid://15441498995", --- rbxassetid://4483345998
     Time = 5
 })
 
-OrionLib:MakeNotification({
-    Name = "Be Careful!",
-    Content = "Admins And Reporters will know you thinking you gained unfair advantages so be sure you have alts",
-    Image = "rbxassetid://15441498995", --- rbxassetid://4483345998
-    Time = 5
-})
 function notify(name,text)
     OrionLib:MakeNotification({
     Name = name,
